@@ -72,27 +72,47 @@
 <body>
     <!-- Contenedor principal del slider -->
     <div class="slider-container">
-        <!-- Contenedor de las imágenes -->
         <div class="slider-content">
-            <!-- Primera imagen del slider -->
             <div class="slider-item">
-                <img src="3Flavors_SPEED_2.png" alt="Imagen 1">
+                <img src="imagen1.jpg" alt="Imagen 1">
             </div>
-            <!-- Segunda imagen del slider -->
             <div class="slider-item">
-                <img src="Galaxy.jpg" alt="Imagen 2">
+                <img src="imagen2.jpg" alt="Imagen 2">
             </div>
-            <!-- Tercera imagen del slider -->
             <div class="slider-item">
-                <img src="rosca.jpg" alt="Imagen 3">
+                <img src="imagen3.jpg" alt="Imagen 3">
             </div>
         </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
-            </div>
-        </div>
-    </div>
-        <!-- JavaScript para controlar el slider -->
+
     <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function plusSlides(n) {
+            slideIndex += n;
+            showSlides();
+        }
+
+        function showSlides() {
+            const slides = document.querySelectorAll(".slider-item");
+            if (slideIndex >= slides.length) {
+                slideIndex = 0;
+            }
+            if (slideIndex < 0) {
+                slideIndex = slides.length - 1;
+            }
+            slides.forEach((slide, index) => {
+                slide.style.display = index === slideIndex ? "block" : "none";
+            });
+            setTimeout(() => {
+                slideIndex++;
+                showSlides();
+            }, 3000); // Cambia la imagen cada 3 segundos
+        }
+    </script>
         document.addEventListener("DOMContentLoaded", function() {
             let slideIndex = 0; // Inicializa el índice de las imágenes
 
