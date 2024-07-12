@@ -74,13 +74,13 @@
     <div class="slider-container">
         <div class="slider-content">
             <div class="slider-item">
-                <img src="imagen1.jpg" alt="Imagen 1">
+                <img src="3Flavors_SPEED_2.png" alt="Imagen 1">
             </div>
             <div class="slider-item">
-                <img src="imagen2.jpg" alt="Imagen 2">
+                <img src="rosca.jpg" alt="Imagen 2">
             </div>
             <div class="slider-item">
-                <img src="imagen3.jpg" alt="Imagen 3">
+                <img src="Galaxy.jpg" alt="Imagen 3">
             </div>
         </div>
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
@@ -113,28 +113,6 @@
             }, 3000); // Cambia la imagen cada 3 segundos
         }
     </script>
-        document.addEventListener("DOMContentLoaded", function() {
-            let slideIndex = 0; // Inicializa el índice de las imágenes
-
-            // Obtiene todas las imágenes del slider
-            const slides = document.querySelectorAll(".slider-item");
-            const totalSlides = slides.length; // Calcula el número total de imágenes
-
-            // Función para mostrar las imágenes del slider
-            function showSlides() {
-                slides.forEach(slide => {
-                    slide.style.display = "none"; // Oculta todas las imágenes
-                });
-
-                slideIndex++; // Aumenta el índice de la imagen actual
-                if (slideIndex > totalSlides) { slideIndex = 1; } // Reinicia el índice si es mayor que el número total de imágenes
-
-                slides[slideIndex - 1].style.display = "block"; // Muestra la imagen actual
-                setTimeout(showSlides, 2000); // Cambia de imagen cada 2 segundos
-            }
-
-            showSlides(); // Inicia la función para mostrar las imágenes
-        });
     </script>
 </body>
 </html>
