@@ -50,7 +50,7 @@ nav ul li {
 /* Estilos para los enlaces en la barra de navegación */
 nav ul li a {
     /* Color del texto del enlace */
-    color: #000000;
+    color: white;
     /* Relleno interno del enlace */
     padding: 0.5rem 1rem;
     /* Elimina el subrayado por defecto */
