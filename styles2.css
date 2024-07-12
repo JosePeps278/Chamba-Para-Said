@@ -42,9 +42,10 @@ nav ul {
 /* Estilos para los elementos de la lista en la barra de navegación */
 nav ul li {
     /* Muestra los elementos en línea */
-    display: inline;
+    display: inline-block;
     /* Elimina los márgenes */
     margin: 0;
+    position: relative;
 }
 
 /* Estilos para los enlaces en la barra de navegación */
