@@ -49,12 +49,25 @@ nav ul li {
 
 /* Estilos para los enlaces en la barra de navegación */
 nav ul li a {
-    /* Color del texto del enlace */
-    color: #000000;
-    /* Relleno interno del enlace */
-    padding: 0.5rem 1rem;
-    /* Elimina el subrayado por defecto */
-    text-decoration: none;
+    display: block;
+        padding: 10% 20%;
+        text-decoration: none;
+        color: white;
+    }
+nav ul li ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li ul{
+    display: block;
+} 
+nav ul li ul li{
+    display: block;
 }
 
 /* Estilos para el contenido principal */
