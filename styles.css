@@ -26,6 +26,7 @@ header {
 }
 
 /* Estilos para la barra de navegación */
+/* Estilos para la barra de navegación */
 nav ul {
     /* Elimina el estilo de lista por defecto */
     list-style: none;
@@ -72,6 +73,7 @@ nav ul li a {
         nav ul li:hover ul {
             display: block;
         }
+
 /* Estilos para el contenido principal */
 main {
     /* Relleno interno del contenido principal */
