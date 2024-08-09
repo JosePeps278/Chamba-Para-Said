@@ -4,12 +4,11 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("Fondo_PC.png");
-    background-size: auto 100%; /* Ajusta la imagen para que tenga un ancho automático y un alto del 100% del contenedor */
+    background-size: contain; /* Ajusta la imagen para que se vea completa */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen dentro del contenedor */
+    background-position: center; /* Centra la imagen */
     text-align: center;
     color: #fff;
-    height: 100vh; /* Asegura que el contenedor tenga una altura mínima del 100% del viewport */
 }
 
 /* Estilos para el encabezado */
