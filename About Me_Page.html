@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Ga+Maamli&display=swap" rel="stylesheet">
-    <!-- Especifica el tipo de documento y la versión de HTML -->
-    <meta charset="UTF-8">
-    <!-- Configura el viewport para que el sitio sea responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Título de la página que aparece en la pestaña del navegador -->
-    <title>About Me</title>
 
     <!-- STYLESHEET -->
     <link rel="stylesheet" href="styles2.css">
-
-  
-</head>
-<body>
-
 </head>
 <body>
     <!-- Sección de encabezado del sitio -->
@@ -46,91 +40,95 @@
             <h2>Get to know me</h2>
             <p>Digital designer specialized in concept creation, character design & cover art </p>
         </section>
-        <iframe width="720" height="480" src="https://www.youtube.com/embed/MqWx8yJY6iM?si=O2Fk2M8d3KL6OHSj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-        <iframe width="720" height="480" src="https://www.youtube.com/embed/Rr2MW7NZIlM?si=9-_P53lULIMPffiQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+        <!-- Videos de YouTube -->
+        <iframe width="720" height="480" src="https://www.youtube.com/embed/MqWx8yJY6iM?si=O2Fk2M8d3KL6OHSj" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <iframe width="720" height="480" src="https://www.youtube.com/embed/Rr2MW7NZIlM?si=9-_P53lULIMPffiQ" 
+                title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         <br>
-                  <style>
-        <link rel="stylesheet" href="styles2.css">
-        /* Estilos para el contenedor principal del slider */
-        .slider-container {
-            max-width: 125%; /* Ancho máximo del slider */
-            margin: 0 auto; /* Centra el slider horizontalmente */
-            position: relative; /* Posición relativa para los elementos internos */
-            overflow: hidden; /* Oculta cualquier contenido que sobresalga del contenedor */
-            height: auto;
-        }
-        /* Estilos para el contenedor de las imágenes */
-        .slider-content {
-            display: flex; /* Utiliza flexbox para alinear las imágenes horizontalmente */
-            transition: transform 0.8s ease; /* Transición suave al cambiar las imágenes */
-        }
-        /* Estilos para cada imagen del slider */
-        .slider-item {
-            min-width: 100%; /* Cada imagen ocupa al menos el ancho completo del contenedor */
-            flex: 0 0 auto; /* Permite que las imágenes mantengan su tamaño original */
-            height:auto ;
-            object-fit:cover ;
-        }
-    </style>
-</head>
-<body>
-    <!-- Contenedor principal del slider -->
-    <div class="slider-container">
-        <div class="slider-content">
-            <div class="slider-item">
-                <img src="3Flavors_SPEED_2.png" alt="Imagen 1">
+
+        <!-- Estilos para el slider -->
+        <style>
+            /* Estilos para el contenedor principal del slider */
+            .slider-container {
+                max-width: 100%; /* Ancho máximo del slider */
+                margin: 0 auto; /* Centra el slider horizontalmente */
+                position: relative; /* Posición relativa para los elementos internos */
+                overflow: hidden; /* Oculta cualquier contenido que sobresalga del contenedor */
+                height: auto;
+            }
+            /* Estilos para el contenedor de las imágenes */
+            .slider-content {
+                display: flex; /* Utiliza flexbox para alinear las imágenes horizontalmente */
+                transition: transform 0.8s ease; /* Transición suave al cambiar las imágenes */
+            }
+            /* Estilos para cada imagen del slider */
+            .slider-item {
+                min-width: 100%; /* Cada imagen ocupa al menos el ancho completo del contenedor */
+                flex: 0 0 auto; /* Permite que las imágenes mantengan su tamaño original */
+                height:auto ;
+                object-fit:cover ;
+            }
+        </style>
+
+        <!-- Contenedor principal del slider -->
+        <div class="slider-container">
+            <div class="slider-content">
+                <div class="slider-item">
+                    <img src="3Flavors_SPEED_2.png" alt="Imagen 1">
+                </div>
+                <div class="slider-item">
+                    <img src="Tobias_Forge_v1.png" alt="Imagen 2">
+                </div>
+                <div class="slider-item">
+                    <img src="Kanato_Sakamaki_V3.png" alt="Imagen 3">
+                </div>
+                <div class="slider-item">
+                    <img src="happy couple.jpg" alt="Imagen 4">
+                </div> 
+                <div class="slider-item">
+                    <img src="Condor Pasa.jpeg" alt="Imagen 5">
+                </div>
             </div>
-            <div class="slider-item">
-                <img src="Tobias_Forge_v1.png" alt="Imagen 2">
-            </div>
-            <div class="slider-item">
-                <img src="Kanato_Sakamaki_V3.png" alt="Imagen 3">
-            </div>
-            <div class="slider-item">
-                <img src="happy couple.jpg" alt="Imagen 3" alt="Imagen 3">
-            </div> 
-            <div class="slider-item">
-                <img src="Condor Pasa.jpeg" alt="Imagen 3">
-            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
         </div>
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-    </div>
 
-    <script>
-        let slideIndex = 0;
-        showSlides();
-
-        function plusSlides(n) {
-            slideIndex += n;
+        <!-- Script para el funcionamiento del slider -->
+        <script>
+            let slideIndex = 0;
             showSlides();
-        }
 
-        function showSlides() {
-            const slides = document.querySelectorAll(".slider-item");
-            if (slideIndex >= slides.length) {
-                slideIndex = 0;
-            }
-            if (slideIndex < 0) {
-                slideIndex = slides.length - 1;
-            }
-            slides.forEach((slide, index) => {
-                slide.style.display = index === slideIndex ? "block" : "none";
-            });
-            setTimeout(() => {
-                slideIndex++;
+            function plusSlides(n) {
+                slideIndex += n;
                 showSlides();
-            }, 3000); // Cambia la imagen cada 3 segundos
-        }
-    </script>
-    </script>
-</body>
-</html>
+            }
 
+            function showSlides() {
+                const slides = document.querySelectorAll(".slider-item");
+                if (slideIndex >= slides.length) {
+                    slideIndex = 0;
+                }
+                if (slideIndex < 0) {
+                    slideIndex = slides.length - 1;
+                }
+                slides.forEach((slide, index) => {
+                    slide.style.display = index === slideIndex ? "block" : "none";
+                });
+                setTimeout(() => {
+                    slideIndex++;
+                    showSlides();
+                }, 3000); // Cambia la imagen cada 3 segundos
+            }
+        </script>
     </main>
+    
     <!-- Pie de página del sitio -->
     <footer>
-        <p>&copy; Hasta aqui llegamos chavales, espero se la hayan pasado muy bien y nos vemos en el proximo vidio hazzzta la protzima</p>
+        <p>&copy; Hasta aquí llegamos chavales, espero se la hayan pasado muy bien y nos vemos en el próximo vídeo. ¡Hasta la próxima!</p>
     </footer>
 </body>
 </html>
