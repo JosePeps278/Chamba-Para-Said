@@ -4,9 +4,7 @@ body {
     margin: 0;
     padding: 0;
     background-image: url("Fondo_PC.png");
-    background-size: contain; /* Ajusta la imagen para que se vea completa */
-    background-repeat: no-repeat; /* Evita que la imagen se repita */
-    background-position: center; /* Centra la imagen */
+    background-size: cover;
     text-align: center;
     color: #fff;
 }
