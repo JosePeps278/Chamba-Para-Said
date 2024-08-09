@@ -54,11 +54,11 @@
         <style>
             /* Estilos para el contenedor principal del slider */
             .slider-container {
-                max-width: 80%; /* Ancho máximo del slider reducido */
+                max-width: 100%; /* Ancho máximo del slider */
                 margin: 0 auto; /* Centra el slider horizontalmente */
                 position: relative; /* Posición relativa para los elementos internos */
                 overflow: hidden; /* Oculta cualquier contenido que sobresalga del contenedor */
-                height: 300px; /* Altura del slider */
+                height: auto;
             }
             /* Estilos para el contenedor de las imágenes */
             .slider-content {
@@ -69,8 +69,8 @@
             .slider-item {
                 min-width: 100%; /* Cada imagen ocupa al menos el ancho completo del contenedor */
                 flex: 0 0 auto; /* Permite que las imágenes mantengan su tamaño original */
-                height: 300px; /* Ajusta la altura de las imágenes */
-                object-fit: cover; /* Ajuste de la imagen para cubrir todo el espacio del contenedor */
+                height:auto ;
+                object-fit:cover ;
             }
         </style>
 
