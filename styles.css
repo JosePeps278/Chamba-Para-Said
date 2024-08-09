@@ -1,8 +1,11 @@
 /* Estilos globales para el cuerpo del documento */
 body {
+    /* Tipo de letra utilizado */
     font-family: "Bona Nova SC", serif;
+    /* Elimina los márgenes y el relleno por defecto */
     margin: 0;
     padding: 0;
+    /* Color de fondo del sitio web */
     background-image: url("Fondo_PC.png");
     background-size: cover;
     text-align: center;
@@ -22,7 +25,6 @@ header {
     text-align: center;
 }
 
-/* Estilos para la barra de navegación */
 /* Estilos para la barra de navegación */
 nav ul {
     /* Elimina el estilo de lista por defecto */
@@ -92,13 +94,4 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
-
-video-container iframe { 
-    position: relative;
-    overflow: hidden;
-    } 
-video-container iframe{
-    position: absolute;
-    overflow: hidden;
-}
 }
